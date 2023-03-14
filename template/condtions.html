@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <!--
+        <h1>condtional statments</h1>
+        <h1>if condition</h1> 
+        {% if a > 30 %}
+            <h1>if condtion satified</h1>
+        {% endif %} 
+   
+    <h1>condtional statments</h1>
+        <h1>else condition</h1> 
+        {% if a > b %}
+            <h1>if condtion satified</h1>
+        {% else %}
+            <h1>else condtion satified</h1>
+        {% endif %}
+    
+    <h1>condtional statments</h1>
+        <h1>elif condition</h1> 
+        {% if a > b and a > c %}
+            <h1>if condtion satified</h1>
+            <h1>a is a Highest number </h1>
+        {% elif b > c %}
+            <h1>elif condtion satified</h1>
+            <h1>b is a Highest number </h1>
+        {% else %}
+            <h1>else condtion satified</h1>
+            <h1>c is a Highest number </h1>
+        {% endif %}
+    -->
+
+    <h1>condtional statments</h1>
+    <h1>nested condition</h1> 
+    {% if a > b %}
+        {% if a > c %}
+            <h1>a is a Highest number </h1>
+        {% else %}
+            <h1>c is a Highest number</h1>
+    {% endif %}
+    {% else %}
+        {% if b > c %}
+            <h1>b is a Highest number </h1>
+        {% else %}
+        <h1>c is a Highest number </h1>
+        {% endif %}
+    {% endif %}
+    
+     </center>
+</body>
+</html>
